@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redux Multiple Reducers</title>
+</head>
+<body>
+  <h1>Redux Multiple Reducers Demo</h1>
+  <p>Number Of Roles: <span id="role">0</span></p>
+  <button onclick="addRole()">Add Role</button>
+  <button onclick="removeRole()">Remove Role</button>
+  <p>Number Of Users: <span id="user">0</span></p>
+  <button onclick="addUser()">Add User</button>
+  <button onclick="removeUser()">Remove User</button>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/4.1.2/redux.min.js"></script>
+  <script src="state.js"></script>
+  <script src="roleReducer.js"></script>
+  <script src="userReducer.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

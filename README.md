@@ -1,1 +1,1 @@
-# frontend
+# Contain sample for frontend technologies

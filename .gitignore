@@ -1,1 +1,3 @@
 .DS_Store
+redux/redux-toolkit/node_modules/
+redux/redux-toolkit/package-lock.json
